@@ -4,7 +4,7 @@
 #@Author: ley
 #@Site : 
 #@File : file_learn.py
-#@Software : PyCharm
+
 f=open("H:\主脚本.txt")
 while True:
     text=f.readline()
@@ -14,3 +14,5 @@ while True:
         print(len(text))
         break
 f.close()
+
+

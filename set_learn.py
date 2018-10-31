@@ -1,4 +1,3 @@
-__author__ = 'H005333'
 a=set('boy')
 a.add('python')
 a.update('linux')

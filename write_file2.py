@@ -12,3 +12,4 @@ fruits= ['appple\n','banana\n','orange\n','watermelon\n']
 f.writelines(fruits)
 print("写入成功")
 f.close()
+

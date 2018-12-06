@@ -35,7 +35,7 @@ print(N)
 #此处返回的是一个生成器的地址
 print(N.__next__())
 print(N.__next__())
-print(N.__next__())
+#print(N.__next__())
 
 F=(file for file in os.listdir('/var/log') if file.endswith('.log'))
 print(F)

@@ -32,3 +32,12 @@ re.S	使 . 匹配包括换行在内的所有字符
 re.U	根据Unicode字符集解析字符。这个标志影响 \w, \W, \b, \B.
 re.X	该标志通过给予你更灵活的格式以便你将正则表达式写得更易于理解。
 '''
+
+re.search(r'[a-z]+','liuyaN1234ab9').group() #返回liuya
+re.search(r'[a-z]+','liuyaN1234ab9',re.I).group() #返回'liuyaN'，对大小写不敏感
+
+#如果匹配成功,则打印m,否则返回Null
+if re.match(r'[0-9]','a'):print('m')
+
+#
+
